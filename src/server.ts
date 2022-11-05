@@ -11,7 +11,7 @@ async function bootstrap(){
         logger: true
     })
 
-    await fastify.register(cors. {
+    await fastify.register(cors, {
         origin: true
     })
 
